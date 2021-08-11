@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic);
+body {
+    background: linear-gradient(rgba(30, 27, 38, 0.95), rgba(30, 27, 38, 0.95));
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+.containers {
+    width: 220px;
+    height:450px;
+  margin: 5px ;
+ 
+}
+.input{
+    margin-top: 50px;
+    width: 30%;
+    /* margin-right: 40px; */
+    border: 2px solid black;
+    outline: none;
+}
+.cellphone-container {
+    width: 200px;
+    height: 370px;
+    background-color: #1e1b26;
+    margin: 60px auto 0 auto;
+    box-shadow: 5px 5px 115px -14px black;
+    border-radius: 4px;
+}
+.card_container{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+.btn{
+    color: white;
+    background-color: red;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.char-img {
+    width: 100%;
+    height: 270px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 111 !important;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    position: relative;
+}
+.char {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 38%, rgba(255, 255, 255, 0.06) 39%, rgba(30, 27, 38, 0.88) 53%, rgba(30, 27, 38, 1) 55%);
+
+    position: absolute;
+    background-size: contain;
+    background-size: cover;
+    z-index: 1 !important;
+    width: 200px;
+    height: 350px;
+    display: block;
+    border-radius: 4px;
+}
+.text-char-cont {
+    padding: 0px 12px;
+    text-align: justify;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #e7e7e7;
+    margin: 0px;
+    font-size: 36px;
+    font-weight: 400;
+}
+.nickname{
+    margin: 0px;
+    padding: 0px;
+}
+.nickname li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #818181;
+    width: auto;
+    display: block;
+    float: left;
+    margin-right: 6px;
+    font-weight: 600;
+}
+.col1, .col2, .col3, .col3rest, .col4, .col4rest, .col5, .col5rest, .col6, .col6rest {
+    margin: 0% 0.5% 0.5% 0.5%;
+    padding: 1%;
+    float: left;
+    display: block;
+}
+.heading{
+   font-size: medium;
+}
+
+.dialog{
+    opacity: 0.4;
+}
+
+
